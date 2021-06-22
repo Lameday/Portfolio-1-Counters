@@ -1,0 +1,44 @@
+.navi {
+  background-color: #171717;
+}
+
+.navi-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 1100px;
+  font-family: "OSWALD";
+}
+
+.header-title > h3 {
+  color: #dfdfdf;
+  font-size: 25px;
+  margin-bottom: 0;
+  padding-top: 1vh;
+  letter-spacing: 6px;
+}
+.header-title > h2 {
+  color: #dfdfdf;
+  font-size: 12px;
+  padding-bottom: 2vh;
+  letter-spacing: 5px;
+}
+
+.navi-content > nav {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #dfdfdf;
+}
+
+.navi-content > nav > a {
+  font-size: 25px;
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+}
+
+.navi-content > nav > a:hover {
+  color: #eceaea;
+  transition-duration: 0.6s;
+}
